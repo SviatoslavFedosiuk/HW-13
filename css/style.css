@@ -92,7 +92,7 @@ body {
   letter-spacing: 0.28px;
 }
 .header-information {
-  color: var(--logo-color);
+  color: #757575;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
@@ -117,7 +117,7 @@ body {
   width: 696px;
   margin-left: 285px;
   margin-right: 285px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .page-button {
   background-color: var(--button-backgrouhd-color);
@@ -149,7 +149,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .advantudes-text {
   color: var(--mini-text-color);
@@ -195,7 +195,6 @@ body {
   margin-bottom: 50px;
 }
 .team-icon {
-  margin-bottom: 30px;
   width: 270px;
   height: 260px;
 }
@@ -207,6 +206,11 @@ body {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
+  margin-bottom: 10px;
+}
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-text {
   color: var(--mini-text-color);
@@ -267,10 +271,6 @@ a[href^="https"] {
   letter-spacing: 0.48px;
 }
 /* footer */
-.header-span {
-  color: var(--logo-color);
-}
-
 .footer-link {
   color: var(--button-backgrouhd-color);
   font-family: Raleway;
@@ -279,18 +279,19 @@ a[href^="https"] {
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
-.footer-span {
-  color: var(--primary-color);
-  padding-bottom: 20px;
-}
 footer {
   background-color: var(--header-footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.address-place {
-padding-bottom: 9px;
+.footer-span {
+  color: var(--primary-color);
+  margin-bottom: 20px;
 }
-.address-gmail {
-padding-bottom: 9px;
+.address-item1 {
+margin-bottom: 9px;
+margin-top: 9px;
+}
+.address{
+  margin-top: 20px;
 }
